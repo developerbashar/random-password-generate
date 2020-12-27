@@ -1,0 +1,23 @@
+html{
+    user-select: none;
+    user-select: context-menu;
+}
+.password-generate-field {
+    transform: translate(0%, 100%);
+    background: #afafaf;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 12px 23px -7px #1b0202;
+}
+#submit {
+    border: none;
+    box-shadow: 0px 10px 9px -10px #1b0202;
+}
+#submit:active{
+    background-color: blue;
+}
+input#pwdGenField {
+    font-family: helvetica;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
